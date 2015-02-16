@@ -1,7 +1,11 @@
 # angular-emoji-map
 Convert emoji "short codes" to their unicode counterpart:
 
-`I :heart: the Indianapolis Colts. :smile:` becomes  `I \u2764 the Indianapolis Colts. \ud83d\ude04`
+`I :heart: the Indianapolis Colts. :smile:` 
+
+becomes  
+
+`I \u2764 the Indianapolis Colts. \ud83d\ude04`
 
 ## Getting Started
 1. Install via [bower](http://bower.io/) `bower install angular-emoji-map --save`
