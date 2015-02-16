@@ -5,6 +5,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "angular": "latest",
+    "angular": "latest"
   }
 }
