@@ -1,0 +1,10 @@
+{
+  "name": "angular-emoji-map",
+  "version": "1.0.0",
+  "main": "angular-emoji-map.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angular": "latest",
+  }
+}
