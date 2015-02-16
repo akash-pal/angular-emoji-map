@@ -1,5 +1,7 @@
 # angular-emoji-map
-Convert emoji text codes to their unicode counterpart.
+Convert emoji "short codes" to their unicode counterpart:
+
+`I :heart: the Indianapolis Colts. :smile:` becomes  `I \u2764 the Indianapolis Colts. \ud83d\ude04`
 
 ## Getting Started
 1. Install via [bower](http://bower.io/) `bower install angular-emoji-map --save`
@@ -36,7 +38,7 @@ module.controller('MyCtrl', ['emojiMap', function(emojiMap) {
 <p data-ng-bind-html="message | emojiToUnicode | twemojoi"></p>
 ```
 
-### Converting short codes witin a controller
+### Converting short codes within a controller
 ```javascript
 module.controller('MyCtrl', ['emojiToUnicodeFilter', function(emojiToUnicodeFilter) {
   $scope.submit = function() {
