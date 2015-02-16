@@ -24,11 +24,10 @@ In your `index.html`:
 In your `app.js`:
 
 ```js
-angular
-    .module('myApp', [
-        // ...
-        'mm.emoji.utils'
-    ]);
+angular.module('myApp', [
+  // ...
+  'mm.emoji.utils'
+]);
 ```
 ### Getting an associative array of short codes
 ```javascript
